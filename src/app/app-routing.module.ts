@@ -1,15 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-// import { AboutComponent } from './pages/about/about.component';
-// import { PortfolioComponent } from '../app/portfolio/portfolio.component';
 import { ContactusComponent} from './pages/contactus/contactus.component';
 import { ProjectComponent } from './pages/project/project.component';
-import { ApplyComponent } from './pages/apply/apply.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ContactComponent } from './pages/contact/contact.component'
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
-import { OtherInfoComponent } from './pages/other-info/other-info.component';
 import { ActivateGuard } from './guard/activate.guard'
 import { ActivatechildguardGuard } from './guard/activatechildguard.guard'
 import { SettingComponent } from './pages/setting/setting.component';
@@ -30,30 +25,23 @@ const routes: Routes = [
   },
   {
     path:'projects', 
-    component:ProjectComponent,canActivate:[ActivateGuard]
+    canActivateChild:[ActivatechildguardGuard],
+    loadChildren: () => import('./pages/project/project.module').then(m => m.ProjectModule)
   },
-  // {
-  //   path:'otherInfo', 
-  //   component:OtherInfoComponent
-  // },
   {
     path:'contactus',
-    component:ContactusComponent
-  },
-  {
-    path:'contact',
-    component:ContactComponent
+    loadChildren: () => import('./pages/contactus/contactus.module').then(m => m.ContactusModule)
   },
 
-  {
-    path:'setting',
-    component:SettingComponent, canActivateChild:[ActivatechildguardGuard],
-    children:[
-    {
-      path:'addUser',
-      component:AddUserComponent
-    },
-  ]},
+  // {
+  //   path:'setting',
+  //   component:SettingComponent, canActivateChild:[ActivatechildguardGuard],
+  //   children:[
+  //   {
+  //     path:'addUser',
+  //     component:AddUserComponent
+  //   },
+  // ]},
 
   {
     path:'login',

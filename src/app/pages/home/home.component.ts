@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material';
 import { MessageComponent } from '../../components/message/message.component';
 import { AddProvider } from '../../../../src/app/services/add';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +14,10 @@ export class HomeComponent implements OnInit {
   panelOpenState1 = false;
   constructor(public addProvider :AddProvider,public dialog: MatDialog) { }
   ngOnInit() {
-   
+    AOS.init({
+      offset:100,
+    });
+    
   }
 
  

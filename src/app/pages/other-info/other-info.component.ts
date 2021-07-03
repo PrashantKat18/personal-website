@@ -3,7 +3,7 @@ import { MatDialog } from '@angular/material';
 import { Router } from '@angular/router';
 import { MessageComponent } from '../../../../src/app/components/message/message.component';
 import { AddProvider } from '../../../../src/app/services/add';
-
+import * as AOS from 'aos';
 @Component({
   selector: 'app-other-info',
   templateUrl: './other-info.component.html',
@@ -15,7 +15,7 @@ export class OtherInfoComponent implements OnInit {
 
   ngOnInit() {
     console.log("other compoent");
-    
+    AOS.init();
     // this.getpermission();
   }
 

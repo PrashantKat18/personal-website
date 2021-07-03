@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-
+import * as AOS from 'aos';
 @Component({
   selector: 'app-contactus',
   templateUrl: './contactus.component.html',
@@ -21,6 +21,8 @@ export class ContactusComponent implements OnInit {
       subject: ['', Validators.required],
       message: ['', Validators.required],
     })
+
+    AOS.init();
 
   }
 

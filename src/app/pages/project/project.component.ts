@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-project',
@@ -9,7 +10,8 @@ export class ProjectComponent implements OnInit {
 
 
   constructor() {
-    console.log("contact us");
+    AOS.init();
+    console.log("project us");
 
    }
 
