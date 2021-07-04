@@ -16,6 +16,7 @@ body {
     font-family: "Roboto", sans-serif;
   }
   
+
   #preloader {
     position: fixed;
     top: 0;
@@ -1847,14 +1848,14 @@ body {
     color:#ffa710
   }
   .card-title i:hover{
-    transform: scale(1.25) rotate(100deg); 
+    // transform: scale(1.25) rotate(100deg); 
     color:#18d4ca;
     
   }
-  .card:hover{
-    transform: scale(1.05);
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-  }
+  // .card:hover{
+  //   transform: scale(1.05);
+  //   box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  // }
   .card-text{
     height:80px;  
   }
@@ -1963,6 +1964,8 @@ body {
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -2056,7 +2059,36 @@ body {
   // font-weight: bold;
 }
   
-  
+// scroll button
+
+.for_scroll_button{  
+div {
+  padding: 15px;
+  background: #e7f1fd;
+  color: #106eea;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%
+}
+div:hover{
+  background: #106eea;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+
+.show-scroll {
+    opacity: 1;
+}
+}
   
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

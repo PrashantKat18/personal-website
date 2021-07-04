@@ -28,29 +28,26 @@
     <div class="container p-0">
         <nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0 ">
             <h1 class="navbar-brand logo">Prashant <span>Kat</span></h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button  class="navbar-toggler" type="button" (click)="toggleNavbar()">
         <span class="navbar-toggler-icon"></span>
       </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link pr-4" routerLink="home">HOME</a>
+            <div class="collapse navbar-collapse show" id="navbarSupportedContent"  [ngClass]="{ 'show': navbarOpen }">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item " (click)="toggleNavbar()">
+                        <a class="nav-link pr-4" routerLink="home" >HOME</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active" (click)="toggleNavbar()">
                         <a class="nav-link pr-4" routerLink="/about">ABOUT</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item " (click)="toggleNavbar()"> 
                         <a class="nav-link pr-4" routerLink="projects">PROJECTS</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item" (click)="toggleNavbar()">
                         <a class="nav-link pr-4" routerLink="otherInfo">OTHER INFO</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item" (click)="toggleNavbar()"> 
                         <a class="nav-link pr-4" routerLink="contactus">CONTACT US</a>
                     </li>
-                    <!-- <li class="nav-item" *ngIf="this.addProvider.isUserLoggedIn">
-                        <a class="nav-link pr-4" routerLink="setting">SETTINGS</a>
-                    </li> -->
                 </ul>
             </div>
         </nav>

@@ -31,4 +31,6 @@ export class OtherInfoComponent implements OnInit {
     this.dialog.open(MessageComponent);
   }
 
+  
+
 }
