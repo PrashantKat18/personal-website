@@ -25,7 +25,6 @@ const routes: Routes = [
   },
   {
     path:'projects', 
-    canActivateChild:[ActivatechildguardGuard],
     loadChildren: () => import('./pages/project/project.module').then(m => m.ProjectModule)
   },
   {
