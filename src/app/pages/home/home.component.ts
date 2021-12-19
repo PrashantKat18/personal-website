@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   showScroll: boolean;
   showScrollHeight = 300;
   hideScrollHeight = 10;
-  viewType = 7;
+  viewType = 0;
   leftCurly = '{';
   rightCurly = '}';
   constructor(public addProvider :AddProvider,public dialog: MatDialog) { }
