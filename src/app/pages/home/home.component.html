@@ -134,7 +134,7 @@
                             src="../../../assets/img/img/projectImage/app.png" alt="" /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>August 2021 - October 2021</h4>
+                            <h4>August 2021 - October 2021 | 3 Months</h4>
                             <h4 class="subheading">Ace UI Developer at Appiness Interactive Private Limited Bangalore
                             </h4>
                         </div>
@@ -163,38 +163,6 @@
                     </div>
                 </li>
 
-                <!-- <li class="timeline-inverted" data-aos="fade-up" data-aos-delay="300">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="../../../assets/img/img/projectImage/engedly.png" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>August 2019 - November 2019</h4>
-                            <h4 class="subheading">Front End Developer at Engagedly Software India Private Limited Bangalore
-                            </h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Here I was working as a front-end Developer.</p>
-                            <p>Website:-
-                                <a href="https://engagedly.com/">https://engagedly.com/</a>
-                            </p>
-                        </div>
-                    </div>
-                </li> -->
-
-                <!-- <li data-aos="fade-up" data-aos-delay="400"> 
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="../../../assets/img/img/projectImage/datagrazp1.png" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>March 2019 - July 2019 </h4>
-                            <h4 class="subheading">Intern at Datagrazp Softech Pvt ltd Bangalore</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted"> Here I was working as a Intern</p>
-                            <p>Website:-
-                                <a href="http://www.datagrazp.com/">http://www.datagrazp.com/</a>
-                            </p>
-                        </div>
-                    </div>
-                </li> -->
                 <li class="timeline-inverted" data-aos="fade-up" data-aos-delay="400">
                     <div class="timeline-image bg-primary">
                         <h4>
@@ -237,7 +205,7 @@
                                         <li class="nav-item "
                                             [ngClass]="(this.viewType == 2) ? 'selectedView' : 'unSelectedView'"
                                             (click)=changeView(2)>
-                                            MongoDb
+                                            MongoDB
                                         </li>
                                         <li class="nav-item "
                                             [ngClass]="(this.viewType == 3) ? 'selectedView' : 'unSelectedView'"
@@ -314,7 +282,26 @@
                                     <!-- for MongoDb -->
 
                                     <div *ngIf="viewType== 2">
-                                        mongodb
+                                        <div class="yellow">{{leftCurly}}</div>
+                                        <div class="ml-3">
+                                        <div class="sky">
+                                            "_id" <span class="orange">: </span><span class="yellow">"54e9b497799u98b" </span>,
+                                        </div>
+                                        <div class="sky">
+                                            "date" <span class="orange">: </span> <span class="yellow">"2021-02-03T00:00:00.000Z"</span>,
+                                        </div>
+                                        <div class="sky">
+                                            "distance" <span class="orange">: </span> <span class="pink">6.05</span>,
+                                        </div>
+                                        <div class="sky">
+                                            "minutes_sedetary" <span class="orange">: </span><span class="pink">654</span>,
+                                        </div>
+                                        <div class="sky">
+                                            "steps" <span class="orange">: </span> <span class="pink"> 8885 </span>
+                                        </div>
+                                        </div>
+                                        <div class="yellow">{{rightCurly}}</div>
+
                                     </div>
 
                                     <!-- for express -->
@@ -329,15 +316,15 @@
                                                 class="orange">'example-shared/apiClass' ;</span>
                                         </div>
                                         <div>
-                                            Const app = express()
+                                           <span class="sky-dark"> const </span> <span class="sky"> app </span> = <span class="yellow">express(); </span>
                                         </div>
-                                        <!-- <div>
-                                                app.get('/',(req,res) =>{
-                                                let apiClass = new apiClass('Hello');
-                                                let apiClassJson = Json.stringify(apiClass);
-                                                res.send(`Serialized ApiClass instance ${apiClassJson} `);
-                                                });
-                                            </div> -->
+                                        <div class="light-gray">
+                                                <span class="sky"><span class="sky-dark">app</span></span><span class="yellow">.get</span>(<span class="orange"> '/ ' </span>,(req, <span class="sky">res </span>) <span class="sky-dark">=></span> {{leftCurly}}
+                                                <div class="sky"> <span class="sky-dark">let </span>apiClass = new <span class="curl-code">apiClass</span><span class="light-gray"> ( </span><span class="orange"> 'hello' </span><span class="light-gray"> );</span></div>
+                                                <div class="sky"> <span class="sky-dark">let </span> apiClassJson <span class="light-gray"> = </span>Json<span class="yellow">.stringify</span><span class="light-gray">(</span> apiClass <span class="light-gray">);</span></div>
+                                                <div><span class="sky"><span class="sky-dark">res</span></span><span class="yellow">.send</span>(<span class="orange">`Serialized ApiClass instance </span> <span class="sky"><span class="sky-dark">${{leftCurly}}</span>apiClassJson<span class="sky-dark">{{rightCurly}}</span></span> <span class="orange">`</span>);</div>
+                                                <div>{{rightCurly}});</div>
+                                            </div>
                                     </div>
 
                                     <!-- for angular -->
@@ -442,7 +429,8 @@
                                         Other Skills
                                     </div>
                                     <div class="card-body text-center">
-                                        <div class="yellow py-2"> Github</div>
+                                        <div class="yellow py-2"> Git</div>
+                                        <div> Mac OS</div>
                                         <div class="py-2"> Ubntu </div>
                                         <div class="yellow py-2"> Windows </div>
                                         <div class="py-2"> Ms office</div>
@@ -453,20 +441,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="row">
-                <div class="col-md-6 col-sm-6 item py-1 " data-aos="fade-up" >
-                    <div class="card item-card card-block">
-                        <div class="pk_card py-4">Technical Skills</div>
-                        <p class="card-text text-center pt-3">Angular, Node js ,Mysql ,Sql ,Java Script ,Chart js, Json, Bootstrap 4 ,Css3 ,Html5</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 item py-1" data-aos="fade-up" >
-                    <div class="card item-card card-block">
-                        <div class="pk_card py-4">Other Skills</div>
-                        <p class="card-text text-center pt-3">Git,Ubntu,Windows,Ms office</p>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </section>
 
