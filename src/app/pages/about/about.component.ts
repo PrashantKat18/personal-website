@@ -7,14 +7,23 @@ import * as AOS from 'aos';
 })
 export class AboutComponent implements OnInit {
   @Input() dataIs;
-  
+
   constructor() {
-    
-   }
+
+  }
   ngOnInit() {
     AOS.init();
-    console.log("aaaaaaaaaaaaaaa");
+    this.scrollToTop();
+  }
 
+  scrollToTop() {
+    (function smoothscroll() {
+      var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      if (currentScroll > 0) {
+        window.requestAnimationFrame(smoothscroll);
+        window.scrollTo(0, currentScroll - (currentScroll / 5));
+      }
+    })();
   }
 
 }

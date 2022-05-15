@@ -14,9 +14,8 @@ export class OtherInfoComponent implements OnInit {
   constructor(public addProvider: AddProvider,public dialog: MatDialog,private router: Router,) { }
 
   ngOnInit() {
-    console.log("other compoent");
     AOS.init();
-    // this.getpermission();
+    this.scrollToTop();
   }
 
   getpermission() {
@@ -29,6 +28,17 @@ export class OtherInfoComponent implements OnInit {
 
   openDialog() {
     this.dialog.open(MessageComponent);
+  }
+
+
+  scrollToTop() {
+    (function smoothscroll() {
+      var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      if (currentScroll > 0) {
+        window.requestAnimationFrame(smoothscroll);
+        window.scrollTo(0, currentScroll - (currentScroll / 5));
+      }
+    })();
   }
 
   

@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
     AOS.init({
       offset:100,
     });
+    this.scrollToTop();
 
     
   }
