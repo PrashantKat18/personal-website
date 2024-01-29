@@ -18,7 +18,7 @@ export class OtherInfoComponent implements OnInit {
   ngOnInit() {
     AOS.init();
     this.scrollToTop();
-  }
+  } 
 
   getpermission() {
     if (this.addProvider.isUserLoggedIn == true) {
