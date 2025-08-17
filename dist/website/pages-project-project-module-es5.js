@@ -1,0 +1,258 @@
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["pages-project-project-module"], {
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/project/project.component.html":
+  /*!********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/pages/project/project.component.html ***!
+    \********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppPagesProjectProjectComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<section>\n    <div class=\"container pt-5\">\n        <div class=\"section-title\">\n            <h2 class=\"mt-3\">PROJECTS</h2>\n            <h3>Project <span> Description</span></h3>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-4\" data-aos=\"fade-up\">\n                <div class=\"image-flip\" ontouchstart=\"this.classList.toggle('hover');\">\n                    <div class=\"mainflip\">\n                        <div class=\"frontside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center\">\n                                    <p>\n                                        <img class=\"img-fluid\" src=\"../../../assets/img/img/projectImage/tms.png\" alt=\"card image\">\n                                    </p>\n                                    <h4 class=\"card-title\">TMS</h4>\n                                    <p class=\"card-text\">Temperature Monitoring System</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"backside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center mt-4\">\n                                    <h4 class=\"card-title\">TMS</h4>\n                                    <perfect-scrollbar>\n                                        <p style=\"max-width: 600px; max-height: 150px;\" class=\"card-text1\">This project is used to check the temperature of person and show in the dashboards. </p>\n                                    </perfect-scrollbar>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-md-4\" data-aos=\"fade-up\">\n                <div class=\"image-flip\" ontouchstart=\"this.classList.toggle('hover');\">\n                    <div class=\"mainflip\">\n                        <div class=\"frontside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center\">\n                                    <p>\n                                        <img class=\"img-fluid\" src=\"../../../assets/img/img/projectImage/tms-fr.png\" alt=\"card image\">\n                                    </p>\n                                    <h4 class=\"card-title\">TMS-FR</h4>\n                                    <p class=\"card-text\">Temperature Monitoring System - Face Recoganize</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"backside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center mt-4\">\n                                    <h4 class=\"card-title\">TMS-FR</h4>\n                                    <perfect-scrollbar>\n                                        <p class=\"card-text1\" style=\"max-width: 600px; max-height: 150px;\">\n                                            Temperature Monitoring System Face Recoganize is AI based web application So According to this Application we can recoganize individual tempreature of a person. So In this Application we have done 3 module. Admin module Admin module can see all page like\n                                            live feed,dashborad,statistics,setting page Manager Manager can see only three page like live feed ,dashboard,setting. Security Security can see only one page like livefeed. So In this Application we meassuring\n                                            temperatue and record of a individual person.\n                                        </p>\n                                    </perfect-scrollbar>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-md-4\" data-aos=\"fade-up\">\n                <div class=\"image-flip\" ontouchstart=\"this.classList.toggle('hover');\">\n                    <div class=\"mainflip\">\n                        <div class=\"frontside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center\">\n                                    <p>\n                                        <img class=\"img-fluid\" src=\"../../../assets/img/img/projectImage/pws.png\" alt=\"card image\">\n                                    </p>\n                                    <h4 class=\"card-title\">PWS</h4>\n                                    <p class=\"card-text\">Perimeter Watch System</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"backside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center mt-4\">\n                                    <h4 class=\"card-title\">PWS</h4>\n                                    <perfect-scrollbar>\n                                        <p class=\"card-text1\" style=\"max-width: 600px; max-height: 150px;\">\n                                            Perimeter Watch System is AI based web application So According to this Application we can track object within particular area . So In this Application we have done 3 module. Admin module Admin module can see all page like live feed,dashborad,statistics,setting\n                                            page Manager Manager can see only three page like live feed ,dashboard,setting. Security Security can see only one page like livefeed. In this Application we are tracking object like human,animal,intruder,maintance.So\n                                            in this application we can tracking object data and fillter camera wise ,datewise,vilationtype and we can also generate report pdf form and excel form and csv.\n                                        </p>\n                                    </perfect-scrollbar>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"col-md-4\" data-aos=\"fade-up\">\n                <div class=\"image-flip\" ontouchstart=\"this.classList.toggle('hover');\">\n                    <div class=\"mainflip\">\n                        <div class=\"frontside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center\">\n                                    <p>\n                                        <img class=\"img-fluid\" src=\"../../../assets/img/img/projectImage/hcms.png\" alt=\"card image\">\n                                    </p>\n                                    <h4 class=\"card-title\">AMS</h4>\n                                    <p class=\"card-text\">Attendance Management System</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"backside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center mt-4\">\n                                    <h4 class=\"card-title\">AMS</h4>\n                                    <perfect-scrollbar>\n                                        <p class=\"card-text1\" style=\"max-width: 600px; max-height: 150px;\">\n                                            Attendance management system is AI based web application So According to this application we can recoganize employee entry and exit time and also record . So In this Application we have done 3 module. Admin module Admin can see all page like livefeed,Live\n                                            Atendance,Attendance History,Face detection,Enroll,settings Human resource HR can see page like livefeed,Live Atendance,Attendance History,Face detection,Enroll. Security So Security can see only live feed So\n                                            In this application we are managing employee entry and exit time and also record we can fillter employee according date wise and name wise and hours wise and also we can edit and delete ,add employee details\n                                            and also generate pdf ,excel ,csv form data of employee.\n                                        </p>\n                                    </perfect-scrollbar>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\" data-aos=\"fade-up\">\n                <div class=\"image-flip\" ontouchstart=\"this.classList.toggle('hover');\">\n                    <div class=\"mainflip\">\n                        <div class=\"frontside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center\">\n                                    <p>\n                                        <img class=\"img-fluid\" src=\"../../../assets/img/img/projectImage/sms.png\" alt=\"card image\">\n                                    </p>\n                                    <h4 class=\"card-title\">SMS</h4>\n                                    <p class=\"card-text\">Showroom Management System</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"backside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center mt-4\">\n                                    <h4 class=\"card-title\">SMS</h4>\n                                    <p class=\"card-text\">Showroom Management System is an application which is only for the customer.According to this application customer check all details particular vehicle.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <!-- <div class=\"col-md-4\" data-aos=\"fade-up\">\n                <div class=\"image-flip\" ontouchstart=\"this.classList.toggle('hover');\">\n                    <div class=\"mainflip\">\n                        <div class=\"frontside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center\">\n                                    <p>\n                                        <img class=\"img-fluid\" src=\"../../../assets/img/img/projectImage/hcms.png\" alt=\"card image\">\n                                    </p>\n                                    <h4 class=\"card-title\">HCMS</h4>\n                                    <p class=\"card-text\">Health Care Management System</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"backside\">\n                            <div class=\"card\">\n                                <div class=\"card-body text-center mt-4\">\n                                    <h4 class=\"card-title\">HCMS</h4>\n                                    <p class=\"card-text\">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div> -->\n        </div>\n    </div>\n</section>";
+    /***/
+  },
+
+  /***/
+  "./src/app/pages/project/project-routing.module.ts":
+  /*!*********************************************************!*\
+    !*** ./src/app/pages/project/project-routing.module.ts ***!
+    \*********************************************************/
+
+  /*! exports provided: ProjectRoutingModule */
+
+  /***/
+  function srcAppPagesProjectProjectRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ProjectRoutingModule", function () {
+      return ProjectRoutingModule;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _project_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./project.component */
+    "./src/app/pages/project/project.component.ts");
+
+    var routes = [{
+      path: '',
+      component: _project_component__WEBPACK_IMPORTED_MODULE_3__["ProjectComponent"]
+    }];
+
+    var ProjectRoutingModule = function ProjectRoutingModule() {
+      _classCallCheck(this, ProjectRoutingModule);
+    };
+
+    ProjectRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild(routes)],
+      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })], ProjectRoutingModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/pages/project/project.component.scss":
+  /*!******************************************************!*\
+    !*** ./src/app/pages/project/project.component.scss ***!
+    \******************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppPagesProjectProjectComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n@import url(\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\");\n/* FontAwesome for working BootSnippet :> */\n#team {\n  background-color: #f6f9fe !important;\n}\n.btn-primary:hover,\nsection {\n  padding: 60px 0;\n}\nsection .section-title {\n  text-align: center;\n  color: #111;\n  margin-bottom: 50px;\n}\nsection .section-title span {\n  color: #106eea;\n}\n#team .card {\n  border: none;\n  background: #ffffff;\n}\n.image-flip:hover .backside,\n.image-flip.hover .backside {\n  transform: rotateY(0deg);\n  border-radius: 0.25rem;\n}\n.image-flip:hover .frontside,\n.image-flip.hover .frontside {\n  transform: rotateY(180deg);\n}\n.mainflip {\n  -webkit-transition: 1s;\n  -webkit-transform-style: preserve-3d;\n  -ms-transition: 1s;\n  -moz-transition: 1s;\n  -moz-transform-style: preserve-3d;\n  -ms-transform-style: preserve-3d;\n  transition: 1s;\n  transform-style: preserve-3d;\n  position: relative;\n}\n.frontside {\n  position: relative;\n  z-index: 2;\n  margin-bottom: 30px;\n}\n.backside {\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: white;\n  transform: rotateY(-180deg);\n  box-shadow: 5px 7px 9px -4px #9e9e9e;\n}\n.frontside,\n.backside {\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n  -webkit-transition: 1s;\n  -webkit-transform-style: preserve-3d;\n  -moz-transition: 1s;\n  -moz-transform-style: preserve-3d;\n  -o-transition: 1s;\n  -o-transform-style: preserve-3d;\n  -ms-transition: 1s;\n  -ms-transform-style: preserve-3d;\n  transition: 1s;\n  transform-style: preserve-3d;\n}\n.frontside .card,\n.backside .card {\n  min-height: 312px;\n}\n.backside .card a {\n  font-size: 18px;\n  color: #007b5e !important;\n}\n.frontside .card .card-title,\n.backside .card .card-title {\n  color: #106eea !important;\n}\n.frontside .card .card-body img {\n  width: 120px;\n  height: 120px;\n  border-radius: 50%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9wcmFzaGFudGthdGl5YXIvRGVza3RvcC9QZXJzb25hbCBwcm9qZWN0L3BlcnNvbmFsLXdlYnNpdGUvc3JjL2FwcC9wYWdlcy9wcm9qZWN0L3Byb2plY3QuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3BhZ2VzL3Byb2plY3QvcHJvamVjdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBRVEsMEZBQUE7QUFGUiwyQ0FBQTtBQUdBO0VBQ0ksb0NBQUE7QUNBSjtBREdBOztFQWVJLGVBQUE7QUNiSjtBRGdCQTtFQUNJLGtCQUFBO0VBQ0EsV0FBQTtFQUVBLG1CQUFBO0FDZEo7QURnQkk7RUFDQSxjQUFBO0FDZEo7QURtQkE7RUFDSSxZQUFBO0VBQ0EsbUJBQUE7QUNoQko7QURtQkE7O0VBTUksd0JBQUE7RUFDQSxzQkFBQTtBQ2hCSjtBRG1CQTs7RUFLSSwwQkFBQTtBQ2hCSjtBRG1CQTtFQUNJLHNCQUFBO0VBQ0Esb0NBQUE7RUFDQSxrQkFBQTtFQUNBLG1CQUFBO0VBRUEsaUNBQUE7RUFDQSxnQ0FBQTtFQUNBLGNBQUE7RUFDQSw0QkFBQTtFQUNBLGtCQUFBO0FDakJKO0FEb0JBO0VBQ0ksa0JBQUE7RUFHQSxVQUFBO0VBQ0EsbUJBQUE7QUNuQko7QURzQkE7RUFDSSxrQkFBQTtFQUNBLE1BQUE7RUFDQSxPQUFBO0VBQ0EsaUJBQUE7RUFLQSwyQkFBQTtFQUdBLG9DQUFBO0FDbkJKO0FEc0JBOztFQUVJLG1DQUFBO0VBR0EsMkJBQUE7RUFDQSxzQkFBQTtFQUNBLG9DQUFBO0VBQ0EsbUJBQUE7RUFDQSxpQ0FBQTtFQUNBLGlCQUFBO0VBQ0EsK0JBQUE7RUFDQSxrQkFBQTtFQUNBLGdDQUFBO0VBQ0EsY0FBQTtFQUNBLDRCQUFBO0FDbkJKO0FEc0JBOztFQUVJLGlCQUFBO0FDbkJKO0FEc0JBO0VBQ0ksZUFBQTtFQUNBLHlCQUFBO0FDbkJKO0FEc0JBOztFQUVJLHlCQUFBO0FDbkJKO0FEc0JBO0VBQ0ksWUFBQTtFQUNBLGFBQUE7RUFDQSxrQkFBQTtBQ25CSiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3Byb2plY3QvcHJvamVjdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEZvbnRBd2Vzb21lIGZvciB3b3JraW5nIEJvb3RTbmlwcGV0IDo+ICovXG5cbkBpbXBvcnQgdXJsKCdodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2ZvbnQtYXdlc29tZS80LjcuMC9jc3MvZm9udC1hd2Vzb21lLm1pbi5jc3MnKTtcbiN0ZWFtIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjZmOWZlIWltcG9ydGFudDtcbn1cblxuLmJ0bi1wcmltYXJ5OmhvdmVyLFxuLy8gLmJ0bi1wcmltYXJ5OmZvY3VzIHtcbi8vICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTA4ZDZmO1xuLy8gICAgIGJvcmRlci1jb2xvcjogIzEwOGQ2Zjtcbi8vICAgICBib3gtc2hhZG93OiBub25lO1xuLy8gICAgIG91dGxpbmU6IG5vbmU7XG4vLyB9XG5cbi8vIC5idG4tcHJpbWFyeSB7XG4vLyAgICAgY29sb3I6ICNmZmY7XG4vLyAgICAgYmFja2dyb3VuZC1jb2xvcjogIzAwN2I1ZTtcbi8vICAgICBib3JkZXItY29sb3I6ICMwMDdiNWU7XG4vLyB9XG5cbnNlY3Rpb24ge1xuICAgIHBhZGRpbmc6IDYwcHggMDtcbn1cblxuc2VjdGlvbiAuc2VjdGlvbi10aXRsZSB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGNvbG9yOiAjMTExO1xuICAgIC8vIGNvbG9yOiAjMTA2ZWVhO1xuICAgIG1hcmdpbi1ib3R0b206IDUwcHg7XG4gICAgLy8gdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICBzcGFue1xuICAgIGNvbG9yOiAjMTA2ZWVhO1xuXG4gICAgfVxufVxuXG4jdGVhbSAuY2FyZCB7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIGJhY2tncm91bmQ6ICNmZmZmZmY7XG59XG5cbi5pbWFnZS1mbGlwOmhvdmVyIC5iYWNrc2lkZSxcbi5pbWFnZS1mbGlwLmhvdmVyIC5iYWNrc2lkZSB7XG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZVkoMGRlZyk7XG4gICAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZVkoMGRlZyk7XG4gICAgLW8tdHJhbnNmb3JtOiByb3RhdGVZKDBkZWcpO1xuICAgIC1tcy10cmFuc2Zvcm06IHJvdGF0ZVkoMGRlZyk7XG4gICAgdHJhbnNmb3JtOiByb3RhdGVZKDBkZWcpO1xuICAgIGJvcmRlci1yYWRpdXM6IC4yNXJlbTtcbn1cblxuLmltYWdlLWZsaXA6aG92ZXIgLmZyb250c2lkZSxcbi5pbWFnZS1mbGlwLmhvdmVyIC5mcm9udHNpZGUge1xuICAgIC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGVZKDE4MGRlZyk7XG4gICAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZVkoMTgwZGVnKTtcbiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZVkoMTgwZGVnKTtcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZVkoMTgwZGVnKTtcbn1cblxuLm1haW5mbGlwIHtcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IDFzO1xuICAgIC13ZWJraXQtdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgICAtbXMtdHJhbnNpdGlvbjogMXM7XG4gICAgLW1vei10cmFuc2l0aW9uOiAxcztcbiAgICAvLyAtbW96LXRyYW5zZm9ybTogcGVyc3BlY3RpdmUoMTAwMHB4KTtcbiAgICAtbW96LXRyYW5zZm9ybS1zdHlsZTogcHJlc2VydmUtM2Q7XG4gICAgLW1zLXRyYW5zZm9ybS1zdHlsZTogcHJlc2VydmUtM2Q7XG4gICAgdHJhbnNpdGlvbjogMXM7XG4gICAgdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi5mcm9udHNpZGUge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAvLyAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlWSgwZGVnKTtcbiAgICAvLyAtbXMtdHJhbnNmb3JtOiByb3RhdGVZKDBkZWcpO1xuICAgIHotaW5kZXg6IDI7XG4gICAgbWFyZ2luLWJvdHRvbTogMzBweDtcbn1cblxuLmJhY2tzaWRlIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiAwO1xuICAgIGxlZnQ6IDA7XG4gICAgYmFja2dyb3VuZDogd2hpdGU7XG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZVkoLTE4MGRlZyk7XG4gICAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZVkoLTE4MGRlZyk7XG4gICAgLW8tdHJhbnNmb3JtOiByb3RhdGVZKC0xODBkZWcpO1xuICAgIC1tcy10cmFuc2Zvcm06IHJvdGF0ZVkoLTE4MGRlZyk7XG4gICAgdHJhbnNmb3JtOiByb3RhdGVZKC0xODBkZWcpO1xuICAgIC13ZWJraXQtYm94LXNoYWRvdzogNXB4IDdweCA5cHggLTRweCByZ2IoMTU4LCAxNTgsIDE1OCk7XG4gICAgLW1vei1ib3gtc2hhZG93OiA1cHggN3B4IDlweCAtNHB4IHJnYigxNTgsIDE1OCwgMTU4KTtcbiAgICBib3gtc2hhZG93OiA1cHggN3B4IDlweCAtNHB4IHJnYigxNTgsIDE1OCwgMTU4KTtcbn1cblxuLmZyb250c2lkZSxcbi5iYWNrc2lkZSB7XG4gICAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG4gICAgLW1vei1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG4gICAgLW1zLWJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcbiAgICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiAxcztcbiAgICAtd2Via2l0LXRyYW5zZm9ybS1zdHlsZTogcHJlc2VydmUtM2Q7XG4gICAgLW1vei10cmFuc2l0aW9uOiAxcztcbiAgICAtbW96LXRyYW5zZm9ybS1zdHlsZTogcHJlc2VydmUtM2Q7XG4gICAgLW8tdHJhbnNpdGlvbjogMXM7XG4gICAgLW8tdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgICAtbXMtdHJhbnNpdGlvbjogMXM7XG4gICAgLW1zLXRyYW5zZm9ybS1zdHlsZTogcHJlc2VydmUtM2Q7XG4gICAgdHJhbnNpdGlvbjogMXM7XG4gICAgdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbn1cblxuLmZyb250c2lkZSAuY2FyZCxcbi5iYWNrc2lkZSAuY2FyZCB7XG4gICAgbWluLWhlaWdodDogMzEycHg7XG59XG5cbi5iYWNrc2lkZSAuY2FyZCBhIHtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gICAgY29sb3I6ICMwMDdiNWUgIWltcG9ydGFudDtcbn1cblxuLmZyb250c2lkZSAuY2FyZCAuY2FyZC10aXRsZSxcbi5iYWNrc2lkZSAuY2FyZCAuY2FyZC10aXRsZSB7XG4gICAgY29sb3I6ICMxMDZlZWEgIWltcG9ydGFudDtcbn1cblxuLmZyb250c2lkZSAuY2FyZCAuY2FyZC1ib2R5IGltZyB7XG4gICAgd2lkdGg6IDEyMHB4O1xuICAgIGhlaWdodDogMTIwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xufSIsIi8qIEZvbnRBd2Vzb21lIGZvciB3b3JraW5nIEJvb3RTbmlwcGV0IDo+ICovXG5AaW1wb3J0IHVybChcImh0dHBzOi8vbWF4Y2RuLmJvb3RzdHJhcGNkbi5jb20vZm9udC1hd2Vzb21lLzQuNy4wL2Nzcy9mb250LWF3ZXNvbWUubWluLmNzc1wiKTtcbiN0ZWFtIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2Y2ZjlmZSAhaW1wb3J0YW50O1xufVxuXG4uYnRuLXByaW1hcnk6aG92ZXIsXG5zZWN0aW9uIHtcbiAgcGFkZGluZzogNjBweCAwO1xufVxuXG5zZWN0aW9uIC5zZWN0aW9uLXRpdGxlIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBjb2xvcjogIzExMTtcbiAgbWFyZ2luLWJvdHRvbTogNTBweDtcbn1cbnNlY3Rpb24gLnNlY3Rpb24tdGl0bGUgc3BhbiB7XG4gIGNvbG9yOiAjMTA2ZWVhO1xufVxuXG4jdGVhbSAuY2FyZCB7XG4gIGJvcmRlcjogbm9uZTtcbiAgYmFja2dyb3VuZDogI2ZmZmZmZjtcbn1cblxuLmltYWdlLWZsaXA6aG92ZXIgLmJhY2tzaWRlLFxuLmltYWdlLWZsaXAuaG92ZXIgLmJhY2tzaWRlIHtcbiAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZVkoMGRlZyk7XG4gIC1tb3otdHJhbnNmb3JtOiByb3RhdGVZKDBkZWcpO1xuICAtby10cmFuc2Zvcm06IHJvdGF0ZVkoMGRlZyk7XG4gIC1tcy10cmFuc2Zvcm06IHJvdGF0ZVkoMGRlZyk7XG4gIHRyYW5zZm9ybTogcm90YXRlWSgwZGVnKTtcbiAgYm9yZGVyLXJhZGl1czogMC4yNXJlbTtcbn1cblxuLmltYWdlLWZsaXA6aG92ZXIgLmZyb250c2lkZSxcbi5pbWFnZS1mbGlwLmhvdmVyIC5mcm9udHNpZGUge1xuICAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlWSgxODBkZWcpO1xuICAtbW96LXRyYW5zZm9ybTogcm90YXRlWSgxODBkZWcpO1xuICAtby10cmFuc2Zvcm06IHJvdGF0ZVkoMTgwZGVnKTtcbiAgdHJhbnNmb3JtOiByb3RhdGVZKDE4MGRlZyk7XG59XG5cbi5tYWluZmxpcCB7XG4gIC13ZWJraXQtdHJhbnNpdGlvbjogMXM7XG4gIC13ZWJraXQtdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgLW1zLXRyYW5zaXRpb246IDFzO1xuICAtbW96LXRyYW5zaXRpb246IDFzO1xuICAtbW96LXRyYW5zZm9ybS1zdHlsZTogcHJlc2VydmUtM2Q7XG4gIC1tcy10cmFuc2Zvcm0tc3R5bGU6IHByZXNlcnZlLTNkO1xuICB0cmFuc2l0aW9uOiAxcztcbiAgdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG4uZnJvbnRzaWRlIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB6LWluZGV4OiAyO1xuICBtYXJnaW4tYm90dG9tOiAzMHB4O1xufVxuXG4uYmFja3NpZGUge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgYmFja2dyb3VuZDogd2hpdGU7XG4gIC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGVZKC0xODBkZWcpO1xuICAtbW96LXRyYW5zZm9ybTogcm90YXRlWSgtMTgwZGVnKTtcbiAgLW8tdHJhbnNmb3JtOiByb3RhdGVZKC0xODBkZWcpO1xuICAtbXMtdHJhbnNmb3JtOiByb3RhdGVZKC0xODBkZWcpO1xuICB0cmFuc2Zvcm06IHJvdGF0ZVkoLTE4MGRlZyk7XG4gIC13ZWJraXQtYm94LXNoYWRvdzogNXB4IDdweCA5cHggLTRweCAjOWU5ZTllO1xuICAtbW96LWJveC1zaGFkb3c6IDVweCA3cHggOXB4IC00cHggIzllOWU5ZTtcbiAgYm94LXNoYWRvdzogNXB4IDdweCA5cHggLTRweCAjOWU5ZTllO1xufVxuXG4uZnJvbnRzaWRlLFxuLmJhY2tzaWRlIHtcbiAgLXdlYmtpdC1iYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG4gIC1tb3otYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xuICAtbXMtYmFja2ZhY2UtdmlzaWJpbGl0eTogaGlkZGVuO1xuICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG4gIC13ZWJraXQtdHJhbnNpdGlvbjogMXM7XG4gIC13ZWJraXQtdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgLW1vei10cmFuc2l0aW9uOiAxcztcbiAgLW1vei10cmFuc2Zvcm0tc3R5bGU6IHByZXNlcnZlLTNkO1xuICAtby10cmFuc2l0aW9uOiAxcztcbiAgLW8tdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgLW1zLXRyYW5zaXRpb246IDFzO1xuICAtbXMtdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcbiAgdHJhbnNpdGlvbjogMXM7XG4gIHRyYW5zZm9ybS1zdHlsZTogcHJlc2VydmUtM2Q7XG59XG5cbi5mcm9udHNpZGUgLmNhcmQsXG4uYmFja3NpZGUgLmNhcmQge1xuICBtaW4taGVpZ2h0OiAzMTJweDtcbn1cblxuLmJhY2tzaWRlIC5jYXJkIGEge1xuICBmb250LXNpemU6IDE4cHg7XG4gIGNvbG9yOiAjMDA3YjVlICFpbXBvcnRhbnQ7XG59XG5cbi5mcm9udHNpZGUgLmNhcmQgLmNhcmQtdGl0bGUsXG4uYmFja3NpZGUgLmNhcmQgLmNhcmQtdGl0bGUge1xuICBjb2xvcjogIzEwNmVlYSAhaW1wb3J0YW50O1xufVxuXG4uZnJvbnRzaWRlIC5jYXJkIC5jYXJkLWJvZHkgaW1nIHtcbiAgd2lkdGg6IDEyMHB4O1xuICBoZWlnaHQ6IDEyMHB4O1xuICBib3JkZXItcmFkaXVzOiA1MCU7XG59Il19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/pages/project/project.component.ts":
+  /*!****************************************************!*\
+    !*** ./src/app/pages/project/project.component.ts ***!
+    \****************************************************/
+
+  /*! exports provided: ProjectComponent */
+
+  /***/
+  function srcAppPagesProjectProjectComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ProjectComponent", function () {
+      return ProjectComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! aos */
+    "./node_modules/aos/dist/aos.js");
+    /* harmony import */
+
+
+    var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);
+
+    var ProjectComponent = /*#__PURE__*/function () {
+      function ProjectComponent() {
+        _classCallCheck(this, ProjectComponent);
+
+        aos__WEBPACK_IMPORTED_MODULE_2__["init"]();
+      }
+
+      _createClass(ProjectComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.scrollToTop();
+        }
+      }, {
+        key: "scrollToTop",
+        value: function scrollToTop() {
+          (function smoothscroll() {
+            var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+
+            if (currentScroll > 0) {
+              window.requestAnimationFrame(smoothscroll);
+              window.scrollTo(0, currentScroll - currentScroll / 5);
+            }
+          })();
+        }
+      }]);
+
+      return ProjectComponent;
+    }();
+
+    ProjectComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-project',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./project.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/pages/project/project.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./project.component.scss */
+      "./src/app/pages/project/project.component.scss"))["default"]]
+    })], ProjectComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/pages/project/project.module.ts":
+  /*!*************************************************!*\
+    !*** ./src/app/pages/project/project.module.ts ***!
+    \*************************************************/
+
+  /*! exports provided: ProjectModule */
+
+  /***/
+  function srcAppPagesProjectProjectModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ProjectModule", function () {
+      return ProjectModule;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _project_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./project-routing.module */
+    "./src/app/pages/project/project-routing.module.ts");
+    /* harmony import */
+
+
+    var _project_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./project.component */
+    "./src/app/pages/project/project.component.ts");
+    /* harmony import */
+
+
+    var ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ngx-perfect-scrollbar */
+    "./node_modules/ngx-perfect-scrollbar/fesm2015/ngx-perfect-scrollbar.js");
+
+    var ProjectModule = function ProjectModule() {
+      _classCallCheck(this, ProjectModule);
+    };
+
+    ProjectModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+      declarations: [_project_component__WEBPACK_IMPORTED_MODULE_4__["ProjectComponent"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _project_routing_module__WEBPACK_IMPORTED_MODULE_3__["ProjectRoutingModule"], ngx_perfect_scrollbar__WEBPACK_IMPORTED_MODULE_5__["PerfectScrollbarModule"]]
+    })], ProjectModule);
+    /***/
+  }
+}]);
+//# sourceMappingURL=pages-project-project-module-es5.js.map
