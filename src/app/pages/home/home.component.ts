@@ -3,6 +3,8 @@ import { MatDialog } from '@angular/material';
 import { MessageComponent } from '../../components/message/message.component';
 import { AddProvider } from '../../../../src/app/services/add';
 import * as AOS from 'aos';
+import { Product } from '../../models/product.model';
+import { PRODUCTS, UPCOMING_PRODUCTS } from '../../models/products.data';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +12,8 @@ import * as AOS from 'aos';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  products: Product[] = PRODUCTS;
+  upcomingProducts: Product[] = UPCOMING_PRODUCTS;
   panelOpenState = false;
   panelOpenState1 = false;
   showScroll: boolean;
@@ -44,15 +48,8 @@ export class HomeComponent implements OnInit {
   }
 
   scrollToTop() 
-    { 
-      (function smoothscroll() 
-      { var currentScroll = document.documentElement.scrollTop || document.body.scrollTop; 
-        if (currentScroll > 0) 
-        {
-          window.requestAnimationFrame(smoothscroll);
-          window.scrollTo(0, currentScroll - (currentScroll / 5));
-        }
-      })();
+    {
+      window.scrollTo(0, 0);
   }
  
 

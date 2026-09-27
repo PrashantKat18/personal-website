@@ -1,55 +1,28 @@
-<div id="topbar" class="d-none d-lg-flex p-4 align-items-center fixed-top">
-    <div class="container d-flex">
-        <div class="contact-info mr-auto pt-2">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;
-            <a class="h6">prashantkat10796@gmail.com</a>
-        </div>
-        <div class="contact-info ml-auto pt-2 h6">
-            <i class="fa fa-phone" aria-hidden="true"></i> +91 8840091275 &nbsp;
-            <a href="https://www.linkedin.com/in/prashant-katiyar-259378177/"><i class="fa fa-linkedin-square"
-                    aria-hidden="true"></i></a> &nbsp;
-            <a href="https://twitter.com/prashantkat18"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> &nbsp;
-            <a href="https://www.facebook.com/prashant.kat.77"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
-        <div class="social-links">
-            <i style="background-color: aliceblue;" styclass="icofont-twitter"></i>
-        </div>&nbsp;
-        <!-- <div class="pt-2 pr-2 pl-2 text-warning h6">{{this.addProvider.userName}}</div>s -->
-        <!-- <div *ngIf="!this.addProvider.isUserLoggedIn">
-            <button type="button" class="btn btn-outline-primary" routerLink="login">Sign In</button>
-        </div>
-        <div *ngIf="this.addProvider.isUserLoggedIn">
-            <button type="button" class="btn btn-outline-primary" (click)="logout()">logout</button>
-        </div> -->
-    </div>
-</div>
-
-
 <header id="header" class="fixed-top">
-    <div class="container p-0">
-        <nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0 ">
-            <h1 class="navbar-brand logo">Prashant <span>Kat</span></h1>
-            <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+    <div class="container header-inner">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand logo" routerLink="/home" (click)="closeNavbar()" aria-label="PoojaVeda home">
+                <img src="assets/img/brand/poojaveda.jpeg" alt="PoojaVeda - Rituals for a Better Tomorrow">
+            </a>
+            <button class="navbar-toggler" type="button" (click)="toggleNavbar()" aria-label="Toggle navigation" [attr.aria-expanded]="navbarOpen">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse show" id="navbarSupportedContent" [ngClass]="{ 'show': navbarOpen }">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{ 'show': navbarOpen }">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item " (click)="toggleNavbar()" routerLinkActive="active">
-                        <a class="nav-link " routerLink="home">HOME</a>
+                    <li class="nav-item" (click)="closeNavbar()" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <a class="nav-link" routerLink="/home">Home</a>
                     </li>
-                    <li class="nav-item" (click)="toggleNavbar()" routerLinkActive="active">
-                        <a class="nav-link " routerLink="/about">ABOUT</a>
+                    <li class="nav-item" (click)="closeNavbar()" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/projects" href="/projects">Products</a>
                     </li>
-                    <li class="nav-item " (click)="toggleNavbar()" routerLinkActive="active">
-                        <a class="nav-link " routerLink="projects">PROJECTS</a>
+                    <li class="nav-item" (click)="closeNavbar()" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/about">About</a>
                     </li>
-                    <li class="nav-item" (click)="toggleNavbar()" routerLinkActive="active">
-                        <a class="nav-link " routerLink="otherInfo">OTHER INFO</a>
-                    </li>
-                    <li class="nav-item" (click)="toggleNavbar()" routerLinkActive="active">
-                        <a class="nav-link " routerLink="contactus">CONTACT US</a>
+                    <li class="nav-item" (click)="closeNavbar()" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/contactus">Contact</a>
                     </li>
                 </ul>
+                <a class="nav-cta" routerLink="/projects" href="/projects" (click)="closeNavbar()">Explore Products <span>↗</span></a>
             </div>
         </nav>
     </div>

@@ -27,8 +27,8 @@ export class HeaderComponent implements OnInit {
     this.navbarOpen = !this.navbarOpen;
   }
 
-  toggleNavbar1() {
-    this.navbarOpen = !this.navbarOpen;
+  closeNavbar() {
+    this.navbarOpen = false;
   }
 
 }

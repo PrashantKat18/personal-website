@@ -1,41 +1,12 @@
-<section class="about section-bg" data-aos="fade-up">
-    <div class="container pt-5">
-        <div class="section-title">
-            <h2>About </h2>
-            <h3 class="pt-2">About <span>Me</span></h3>
-        </div>
-        <div class="row">
-            <div class="col-md-4 text-center" >
-                <img width="250px" height="250px" src="../../../assets/prashant.png" class="rounded-circle" alt="Cinque Terre">
-            </div>
-            <div class="col-md-8 pt-4">
-                <div>
-                    <div class="d-lg-block d-none">
-                        <h3>Hello, I'm Prashant Katiyar</h3>
-                        <!-- <h3></h3> -->
-                        <h5>Mean Stack Developer </h5>
-                    </div>
-                     <div class="text-center d-sm-block d-lg-none">
-                        <h3>Hello!</h3>
-                        <h3>I'm Prashant Katiyar</h3>
-                        <h5>Mean Stack Developer </h5>
-                    </div>
-                    <div>
-                        <p class="pt-2">A dedicated and enthusiastic developer with a passion for web technologies. I enjoy learning new programming languages and frameworks, staying updated with the latest trends, and building scalable, user-friendly applications. With strong problem-solving skills and a love for coding, I strive to deliver high-quality solutions in every project I take on.
-                        </p>
-                    </div>
-                </div>
-                <div class="d-flex flex-row">
-                    <div class="p-3 "><a href="https://www.linkedin.com/in/prashant-katiyar-259378177/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
-                    <div class="p-3 "><a href="https://twitter.com/Prashan06902633"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></div>
-                    <div class="p-3 "> <a href="https://github.com/prashantkat18"><i class="fa fa-github-square" aria-hidden="true"></i></a></div>
-                    <div class="p-3 ">
-                        <a href="https://www.facebook.com/prashant.kat.77"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="p-3 "> <a href="https://www.youtube.com/watch?v=cg9VyPBHu94"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="about-page">
+  <div class="about-hero"><div class="container"><p class="eyebrow"><span></span> The PoojaVeda story</p><h1>About <em>PoojaVeda</em></h1><p class="about-subheading">Rooted in Tradition. Crafted for a Brighter Tomorrow.</p></div></div>
+
+  <div class="container about-main">
+    <div class="about-visual" data-aos="fade-right"><div class="visual-frame"><div class="visual-corner visual-corner-one"></div><div class="visual-corner visual-corner-two"></div><img src="assets/img/brand/poojaveda.jpeg" loading="lazy" alt="PoojaVeda - Rituals for a Better Tomorrow"><div class="visual-caption"><span>Our promise</span><strong>Pure. Natural. Traditional.</strong><small>Made with Devotion.</small></div></div></div>
+    <div class="about-copy" data-aos="fade-left"><p class="eyebrow"><span></span> A simple belief</p><h2>Tradition belongs<br><em>in every home.</em></h2><p>PoojaVeda is a traditional pooja essentials brand dedicated to bringing the purity and simplicity of Indian rituals closer to every home.</p><p>We offer carefully selected pooja essentials such as Ganga Jal, Peepal Ki Lakdi, Aam Ki Lakdi, Gau Uple and traditional Mitti Ke Diye — products inspired by age-old traditions and everyday spiritual practices.</p><p>Our aim is to make traditional pooja essentials easily accessible while respecting the values, rituals and traditions they represent.</p><p>At PoojaVeda, we believe that spirituality is not just a ritual, but a part of everyday life. Our products are thoughtfully presented to help families bring a sense of tradition, devotion and positivity into their homes.</p><a class="button button-primary" routerLink="/projects">Explore our essentials <span>↗</span></a></div>
+  </div>
+
+  <section class="values-section"><div class="container"><div class="values-heading"><div><p class="eyebrow"><span></span> What guides us</p><h2>Made for meaningful<br><em>everyday rituals.</em></h2></div><div class="value-spotlight"><span>Selected thought</span><strong>{{ activeValue.title }}</strong><p>{{ activeValue.description }}</p></div></div><div class="values-grid"><article class="value-card" [class.is-selected]="activeValue.title === 'Traditional'" role="button" tabindex="0" (click)="selectValue({title: 'Traditional', description: 'Products inspired by Indian traditions and spiritual practices.'})" (keydown.enter)="selectValue({title: 'Traditional', description: 'Products inspired by Indian traditions and spiritual practices.'})"><span class="value-number">01</span><span class="value-symbol">✧</span><h3>Traditional</h3><p>Products inspired by Indian traditions and spiritual practices.</p><span class="value-action">Explore thought ↗</span></article><article class="value-card" [class.is-selected]="activeValue.title === 'Natural'" role="button" tabindex="0" (click)="selectValue({title: 'Natural', description: 'Thoughtfully selected products inspired by nature and traditional usage.'})" (keydown.enter)="selectValue({title: 'Natural', description: 'Thoughtfully selected products inspired by nature and traditional usage.'})"><span class="value-number">02</span><span class="value-symbol">◌</span><h3>Natural</h3><p>Thoughtfully selected products inspired by nature and traditional usage.</p><span class="value-action">Explore thought ↗</span></article><article class="value-card" [class.is-selected]="activeValue.title === 'Made with Devotion'" role="button" tabindex="0" (click)="selectValue({title: 'Made with Devotion', description: 'Every product represents our respect for India\'s spiritual traditions.'})" (keydown.enter)="selectValue({title: 'Made with Devotion', description: 'Every product represents our respect for India\'s spiritual traditions.'})"><span class="value-number">03</span><span class="value-symbol">♡</span><h3>Made with Devotion</h3><p>Every product represents our respect for India's spiritual traditions.</p><span class="value-action">Explore thought ↗</span></article><article class="value-card" [class.is-selected]="activeValue.title === 'For Every Home'" role="button" tabindex="0" (click)="selectValue({title: 'For Every Home', description: 'Making traditional pooja essentials accessible for everyday rituals.'})" (keydown.enter)="selectValue({title: 'For Every Home', description: 'Making traditional pooja essentials accessible for everyday rituals.'})"><span class="value-number">04</span><span class="value-symbol">⌂</span><h3>For Every Home</h3><p>Making traditional pooja essentials accessible for everyday rituals.</p><span class="value-action">Explore thought ↗</span></article></div></div></section>
+
+  <section class="about-cta"><div class="container"><p class="eyebrow"><span></span> Begin your ritual</p><h2>Bring a little more meaning home.</h2><a class="button button-light" routerLink="/projects">View our essentials <span>↗</span></a></div></section>
 </section>
-<!-- <app-footer></app-footer> -->
