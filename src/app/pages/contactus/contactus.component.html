@@ -1,26 +1,99 @@
-<section class="contact-page">
-  <div class="contact-heading container">
-    <p class="eyebrow"><span></span> We would love to hear from you</p>
-    <h1>Begin your<br><em>ritual.</em></h1>
-  </div>
-  <div class="container contact-layout">
-    <div class="contact-intro">
-      <h2>Let’s make<br>something <em>meaningful.</em></h2>
-      <p>Have a question about our essentials, an order enquiry, or simply want to say hello? Our door is open.</p>
-      <div class="contact-detail"><span>✦</span><div><small>Email</small><a href="mailto:poojaveda2026@gmail.com">poojaveda2026@gmail.com</a></div></div>
-      <div class="contact-detail"><span>✦</span><div><small>Call us</small><a href="tel:+918375938269">+91 8375938269</a></div></div>
-      <a class="contact-whatsapp" href="https://wa.me/918375938269?text=Namaste%20PoojaVeda%2C%20I%20would%20like%20to%20enquire%20about%20your%20pooja%20products." target="_blank" rel="noopener">Enquire on WhatsApp <span>↗</span></a>
+<section class="section-bg">
+    <div class="section-title pt-5">
+        <h2>Contact</h2>
+        <h3>Contact <span>Us</span></h3>
+        <!-- <p>PLEASE FILL OUT THE FORM BELOW AND WE WILL GET BACK TO YOU AS SOON AS POSSIBLE</p> -->
     </div>
-    <div class="contact-form-wrap">
-      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-        <div class="form-group"><label class="text-uppercase">Name</label><input type="text" class="form-control" formControlName="name" [ngClass]="{ 'is-invalid': submitted && f.name.errors }"><div *ngIf="submitted && f.name.errors" class="invalid-feedback"><div *ngIf="f.name.errors.required">Name is required</div></div></div>
-        <div class="form-group"><label class="text-uppercase">Email</label><input type="email" class="form-control" formControlName="email" [ngClass]="{ 'is-invalid': submitted && f.email.errors }"><div *ngIf="submitted && f.email.errors" class="invalid-feedback"><div *ngIf="f.email.errors.required">Email is required</div><div *ngIf="f.email.errors.email">Enter a valid email</div></div></div>
-        <div class="form-group"><label class="text-uppercase">Subject</label><input type="text" class="form-control" formControlName="subject" [ngClass]="{ 'is-invalid': submitted && f.subject.errors }"><div *ngIf="submitted && f.subject.errors" class="invalid-feedback"><div *ngIf="f.subject.errors.required">Subject is required</div></div></div>
-        <div class="form-group"><label class="text-uppercase">Message</label><textarea class="form-control" rows="3" formControlName="message" [ngClass]="{ 'is-invalid': submitted && f.message.errors }"></textarea><div *ngIf="submitted && f.message.errors" class="invalid-feedback"><div *ngIf="f.message.errors.required">Message is required</div></div></div>
-        <div class="text-center mt-4"><button class="button button-primary text-uppercase" type="submit">Send Message <span>↗</span></button></div>
-      </form>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-5">
+                <h5 class="font-weight-bold text-primary"> LET’S GET STARTED </h5>
+                <p class="font-italic"> Get in touch and we’ll get back to you as soon as we can.</p>
+            </div>
+            <div class="col-md-7">
+                <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                    <div class="form-group">
+                      <label class="text-uppercase">Name</label>
+                      <input type="text" class="form-control" formControlName="name" [ngClass]="{ 'is-invalid': submitted && f.name.errors }">
+                      <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+                        <div *ngIf="f.name.errors.required">Name is required</div>
+                      </div>
+                    </div>
+                  
+                    <div class="form-group">
+                      <label class="text-uppercase">Email</label>
+                      <input type="email" class="form-control" formControlName="email" [ngClass]="{ 'is-invalid': submitted && f.email.errors }">
+                      <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">Email is required</div>
+                        <div *ngIf="f.email.errors.email">Enter a valid email</div>
+                      </div>
+                    </div>
+                  
+                    <div class="form-group">
+                      <label class="text-uppercase">Subject</label>
+                      <input type="text" class="form-control" formControlName="subject" [ngClass]="{ 'is-invalid': submitted && f.subject.errors }">
+                      <div *ngIf="submitted && f.subject.errors" class="invalid-feedback">
+                        <div *ngIf="f.subject.errors.required">Subject is required</div>
+                      </div>
+                    </div>
+                  
+                    <div class="form-group">
+                      <label class="text-uppercase">Message</label>
+                      <textarea class="form-control" rows="3" formControlName="message" [ngClass]="{ 'is-invalid': submitted && f.message.errors }"></textarea>
+                      <div *ngIf="submitted && f.message.errors" class="invalid-feedback">
+                        <div *ngIf="f.message.errors.required">Message is required</div>
+                      </div>
+                    </div>
+                  
+                    <div class="text-center mt-4">
+                      <button class="btn btn-outline-primary text-uppercase">Send Message</button>
+                    </div>
+                  </form>
+                  
+                <!-- <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="text-uppercase">Name</label>
+                        <input type="email" class="form-control" formControlName="name" aria-describedby="emailHelp" [ngClass]="{ 'is-invalid': submitted && f.name.errors }">
+                        <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+                            <div *ngIf="f.name.errors.required">Name is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="text-uppercase">Email</label>
+                        <input type="text" class="form-control" formControlName="email" [ngClass]="{ 'is-invalid': submitted && f.email.errors }">
+                        <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                            <div *ngIf="f.email.errors.required">Email is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="text-uppercase">Subject</label>
+                        <input type="text" class="form-control" formControlName="subject" [ngClass]="{ 'is-invalid': submitted && f.subject.errors }">
+                        <div *ngIf="submitted && f.subject.errors" class="invalid-feedback">
+                            <div *ngIf="f.subject.errors.required">Subject is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" class="text-uppercase">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" formControlName="message" [ngClass]="{ 'is-invalid': submitted && f.message.errors }" rows="3"></textarea>
+                        <div *ngIf="submitted && f.message.errors" class="invalid-feedback">
+                            <div *ngIf="f.message.errors.required">Message is required</div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn btn-outline-primary text-uppercase">Send Message</button>
+                    </div>
+                </form> -->
+            </div>
+        </div>
     </div>
-  </div>
-  <div *ngIf="successMsg" class="alert alert-success mt-3" role="alert">{{ successMsg }}</div>
-  <div *ngIf="errorMsg" class="alert alert-danger mt-3" role="alert">{{ errorMsg }}</div>
+
+    <div *ngIf="successMsg" class="alert alert-success mt-3" role="alert">
+        {{ successMsg }}
+      </div>
+      
+      <div *ngIf="errorMsg" class="alert alert-danger mt-3" role="alert">
+        {{ errorMsg }}
+      </div>
+      
 </section>
+

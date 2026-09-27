@@ -1,76 +1,19 @@
-:root {
-  --primary-green: #1d4b3d;
-  --dark-green: #12392f;
-  --cream: #f6f0e3;
-  --gold: #b88a42;
-  --saffron: #c96f3d;
-  --brown: #754d31;
-  --text-primary: #26352d;
-  --text-secondary: #6f7064;
-  --border-gold: rgba(184, 138, 66, 0.42);
-}
-
-.poojaveda-alert {
-  border: 1px solid var(--border-gold) !important;
-  border-radius: 2px !important;
-  box-shadow: 0 20px 55px rgba(18, 57, 47, .18) !important;
-  padding: 2.5em 2.2em 2.2em !important;
-}
-
-.poojaveda-alert-title {
-  color: var(--primary-green) !important;
-  font-family: "Cormorant Garamond", Georgia, serif !important;
-  font-size: 32px !important;
-  font-weight: 600 !important;
-}
-
-.poojaveda-alert-copy {
-  color: var(--text-secondary) !important;
-  font-family: "Nunito Sans", sans-serif !important;
-  font-size: 14px !important;
-  line-height: 1.6 !important;
-}
-
-.poojaveda-alert-button {
-  background: var(--primary-green) !important;
-  border: 0 !important;
-  border-radius: 2px !important;
-  color: var(--cream) !important;
-  font-family: "Nunito Sans", sans-serif !important;
-  font-size: 12px !important;
-  font-weight: 700 !important;
-  letter-spacing: .8px !important;
-  padding: 12px 24px !important;
-  text-transform: uppercase !important;
-}
-
-.poojaveda-alert-button:hover {
-  background: var(--saffron) !important;
-}
-
-html {
-  scroll-behavior: auto;
-}
-
 body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--text-primary);
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
   }
   
   a {
-    color: var(--primary-green);
+    color: #106eea;
   }
   
   a:hover {
-    color: var(--saffron);
+    color: #3b8af2;
     text-decoration: none;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Cormorant Garamond", Georgia, serif;
-    font-weight: 600;
+    font-family: "Roboto", sans-serif;
   }
   
 

@@ -1,50 +1,9 @@
-.about-page { background: var(--cream); padding-top: 104px; }
-.about-hero { background: radial-gradient(circle at 80% 50%, rgba(228,185,106,.2), transparent 24%), #e9dfca; padding: 92px 0 88px; }
-.about-hero h1 { color: var(--primary-green); font-size: 84px; letter-spacing: -1px; line-height: .78; margin: 0; }
-.about-hero h1 em, .about-copy h2 em, .values-heading h2 em { color: var(--saffron); font-style: normal; }
-.about-subheading { color: var(--brown); font-family: "Cormorant Garamond", Georgia, serif; font-size: 25px; margin: 22px 0 0; }
-.about-main { align-items: center; display: grid; gap: 90px; grid-template-columns: .9fr 1.1fr; padding-bottom: 112px; padding-top: 105px; }
-.about-visual { min-width: 0; }
-.visual-frame { background: #eee5d3; border: 1px solid var(--gold); box-shadow: 14px 14px 0 rgba(184,138,66,.2); min-height: 475px; padding: 18px; position: relative; transform: rotate(-2deg); }
-.visual-frame:before { border: 1px solid rgba(184,138,66,.5); content: ""; inset: 10px; pointer-events: none; position: absolute; }
-.visual-frame img { display: block; height: 355px; object-fit: contain; position: relative; width: 100%; }
-.visual-corner { border-color: var(--saffron); height: 35px; position: absolute; width: 35px; z-index: 2; }
-.visual-corner-one { border-left: 2px solid; border-top: 2px solid; left: 28px; top: 28px; }
-.visual-corner-two { border-bottom: 2px solid; border-right: 2px solid; bottom: 28px; right: 28px; }
-.visual-caption { border-top: 1px solid var(--border-gold); margin: 4px 22px 0; padding: 18px 0 0; position: relative; text-align: center; }
-.visual-caption span { color: var(--saffron); display: block; font-size: 10px; font-weight: 700; letter-spacing: 1.7px; text-transform: uppercase; }
-.visual-caption strong { color: var(--primary-green); display: block; font-family: "Cormorant Garamond", Georgia, serif; font-size: 25px; margin-top: 5px; }
-.visual-caption small { color: var(--brown); font-size: 11px; letter-spacing: 1px; }
-.about-copy { max-width: 590px; }
-.about-copy h2 { color: var(--primary-green); font-size: 62px; line-height: .82; margin: 0 0 28px; }
-.about-copy p:not(.eyebrow) { color: var(--text-secondary); font-size: 14px; line-height: 1.85; margin-bottom: 16px; }
-.about-copy .button, .about-cta .button { align-items: center; border: 1px solid transparent; display: inline-flex; font-family: "Nunito Sans", sans-serif; font-size: 11px; font-weight: 700; gap: 9px; justify-content: center; letter-spacing: .8px; padding: 14px 19px; text-transform: uppercase; transition: background 180ms ease, box-shadow 180ms ease, transform 180ms ease; }
-.about-copy .button-primary { background: var(--primary-green); color: var(--cream); margin-top: 11px; }
-.about-copy .button-primary:hover { background: var(--saffron); box-shadow: 0 8px 18px rgba(201,111,61,.18); color: var(--cream); transform: translateY(-2px); }
-.about-cta .button-light { background: var(--cream); color: var(--primary-green); }
-.about-cta .button-light:hover { box-shadow: 0 8px 18px rgba(117,77,49,.18); color: var(--primary-green); transform: translateY(-2px); }
-.about-copy .button span, .about-cta .button span { color: var(--gold); font-size: 17px; line-height: 10px; }
-.values-section { background: var(--primary-green); color: var(--cream); padding: 88px 0 96px; }
-.values-heading { align-items: flex-end; display: flex; justify-content: space-between; margin-bottom: 42px; }
-.values-heading .eyebrow { color: #e4b96a; }
-.values-heading h2 { font-size: 53px; line-height: .82; margin: 0; }
-.value-spotlight { border-left: 1px solid rgba(228,185,106,.45); max-width: 260px; padding-left: 18px; }
-.value-spotlight span { color: #e4b96a; display: block; font-size: 9px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; }
-.value-spotlight strong { color: var(--cream); display: block; font-family: "Cormorant Garamond", Georgia, serif; font-size: 25px; margin-top: 6px; }
-.value-spotlight p { color: #b9c4b7; font-size: 12px; line-height: 1.55; margin: 4px 0 0; }
-.values-grid { display: grid; gap: 16px; grid-template-columns: repeat(4, 1fr); }
-.value-card { border: 1px solid rgba(228,185,106,.38); cursor: pointer; display: flex; flex-direction: column; min-height: 218px; padding: 23px 20px; position: relative; transition: background 200ms ease, border-color 200ms ease, transform 200ms ease; }
-.value-card:hover { background: rgba(255,253,247,.07); transform: translateY(-4px); }
-.value-card:focus { outline: 2px solid #e4b96a; outline-offset: 3px; }
-.value-card.is-selected { background: rgba(228,185,106,.12); border-color: #e4b96a; }
-.value-number { color: #a9b6a9; font-size: 10px; letter-spacing: 1px; }
-.value-symbol { color: #e4b96a; display: block; font-size: 27px; margin: 23px 0 12px; }
-.value-card h3 { color: var(--cream); font-size: 25px; margin: 0 0 9px; }
-.value-card p { color: #b9c4b7; font-size: 12px; line-height: 1.7; margin: 0; }
-.value-action { color: #e4b96a; display: block; font-size: 10px; font-weight: 700; letter-spacing: .7px; margin-top: auto; padding-top: 18px; text-transform: uppercase; }
-.about-cta { background: var(--saffron); color: var(--cream); padding: 62px 0 68px; }
-.about-cta .eyebrow { color: #f4d7a1; }
-.about-cta h2 { font-size: 44px; margin: 0 0 24px; }
-.visual-frame img { filter: drop-shadow(0 8px 8px rgba(117,77,49,.08)); }
-@media (max-width: 991px) { .about-main { gap: 55px; grid-template-columns: 1fr 1fr; } .values-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 767px) { .about-page { padding-top: 82px; } .about-hero { padding: 70px 20px; } .about-hero h1 { font-size: 63px; } .about-subheading { font-size: 21px; line-height: 1.1; } .about-main { display: block; padding: 72px 20px 82px; } .visual-frame { margin: 0 7px 65px; min-height: 370px; } .visual-frame img { height: 265px; } .about-copy h2 { font-size: 49px; } .values-section { padding: 70px 20px 78px; } .values-heading { align-items: start; display: block; } .values-heading h2 { font-size: 45px; } .value-spotlight { margin-top: 24px; max-width: none; } .values-grid { grid-template-columns: 1fr; margin-top: 35px; } .value-card { min-height: 180px; } .about-cta { padding: 54px 20px 60px; } .about-cta h2 { font-size: 36px; } }
+h2 span {
+    color:#106eea;
+    font-weight: bold;  
+}
+
+a {
+    color: #000;
+    font-size: 20px;
+}

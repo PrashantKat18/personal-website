@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
-import { Product } from '../../models/product.model';
-import { PRODUCTS, UPCOMING_PRODUCTS } from '../../models/products.data';
 
 @Component({
   selector: 'app-project',
@@ -9,9 +7,6 @@ import { PRODUCTS, UPCOMING_PRODUCTS } from '../../models/products.data';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit {
-  products: Product[] = PRODUCTS;
-  upcomingProducts: Product[] = UPCOMING_PRODUCTS;
-  selectedProduct: Product;
 
 
   constructor() {
@@ -23,15 +18,13 @@ export class ProjectComponent implements OnInit {
   }
 
   scrollToTop() {
-    window.scrollTo(0, 0);
-  }
-
-  showDetails(product: Product) {
-    this.selectedProduct = product;
-  }
-
-  closeDetails() {
-    this.selectedProduct = undefined;
+    (function smoothscroll() {
+      var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      if (currentScroll > 0) {
+        window.requestAnimationFrame(smoothscroll);
+        window.scrollTo(0, currentScroll - (currentScroll / 5));
+      }
+    })();
   }
 
 }

@@ -1,10 +1,187 @@
-<section class="catalogue-page">
-  <div class="catalogue-hero"><div class="container"><p class="eyebrow"><span></span> The sacred shelf</p><h1>Our Pooja<br><em>Essentials</em></h1><p>Simple, pure and rooted in tradition. Choose what makes your daily rituals feel like home.</p><div class="catalogue-emblem"><i class="emblem-flame"></i><div class="emblem-dots"><b></b><b></b><b></b></div><strong>PV</strong><span>Pure<br>Traditional</span></div></div></div>
-  <div class="container catalogue-body"><div class="catalogue-intro"><div><p class="eyebrow"><span></span> Thoughtfully chosen</p><h2>For every kind of devotion.</h2></div><p>From the first diya of the morning to the warmth of a sacred havan, discover natural essentials made for the rituals that matter.</p></div><div class="catalogue-grid"><article class="catalogue-card" *ngFor="let product of products; let i = index"><div class="catalogue-image"><span class="product-index">0{{ i + 1 }}</span><span class="product-badge">{{ product.badge }}</span><img [src]="product.image" loading="lazy" [alt]="product.name"></div><div class="catalogue-card-content"><p class="product-category">{{ product.category }}</p><h3>{{ product.name }}</h3><p>{{ product.description }}</p><div class="feature-list"><p class="feature-title">Key Features</p><span *ngFor="let feature of product.keyFeatures | slice:0:2">&#10003; {{ feature }}</span></div><button type="button" class="button button-outline" (click)="showDetails(product)">View Details <span>↗</span></button></div></article></div></div>
+<section>
+    <div class="container pt-5">
+        <div class="section-title">
+            <h2 class="mt-3">PROJECTS</h2>
+            <h3>Project <span> Description</span></h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p>
+                                        <img class="img-fluid" src="../../../assets/img/img/projectImage/tms.png" alt="card image">
+                                    </p>
+                                    <h4 class="card-title">TMS</h4>
+                                    <p class="card-text">Temperature Monitoring System</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">TMS</h4>
+                                    <perfect-scrollbar>
+                                        <p style="max-width: 600px; max-height: 150px;" class="card-text1">This project is used to check the temperature of person and show in the dashboards. </p>
+                                    </perfect-scrollbar>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p>
+                                        <img class="img-fluid" src="../../../assets/img/img/projectImage/tms-fr.png" alt="card image">
+                                    </p>
+                                    <h4 class="card-title">TMS-FR</h4>
+                                    <p class="card-text">Temperature Monitoring System - Face Recoganize</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">TMS-FR</h4>
+                                    <perfect-scrollbar>
+                                        <p class="card-text1" style="max-width: 600px; max-height: 150px;">
+                                            Temperature Monitoring System Face Recoganize is AI based web application So According to this Application we can recoganize individual tempreature of a person. So In this Application we have done 3 module. Admin module Admin module can see all page like
+                                            live feed,dashborad,statistics,setting page Manager Manager can see only three page like live feed ,dashboard,setting. Security Security can see only one page like livefeed. So In this Application we meassuring
+                                            temperatue and record of a individual person.
+                                        </p>
+                                    </perfect-scrollbar>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p>
+                                        <img class="img-fluid" src="../../../assets/img/img/projectImage/pws.png" alt="card image">
+                                    </p>
+                                    <h4 class="card-title">PWS</h4>
+                                    <p class="card-text">Perimeter Watch System</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">PWS</h4>
+                                    <perfect-scrollbar>
+                                        <p class="card-text1" style="max-width: 600px; max-height: 150px;">
+                                            Perimeter Watch System is AI based web application So According to this Application we can track object within particular area . So In this Application we have done 3 module. Admin module Admin module can see all page like live feed,dashborad,statistics,setting
+                                            page Manager Manager can see only three page like live feed ,dashboard,setting. Security Security can see only one page like livefeed. In this Application we are tracking object like human,animal,intruder,maintance.So
+                                            in this application we can tracking object data and fillter camera wise ,datewise,vilationtype and we can also generate report pdf form and excel form and csv.
+                                        </p>
+                                    </perfect-scrollbar>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p>
+                                        <img class="img-fluid" src="../../../assets/img/img/projectImage/hcms.png" alt="card image">
+                                    </p>
+                                    <h4 class="card-title">AMS</h4>
+                                    <p class="card-text">Attendance Management System</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">AMS</h4>
+                                    <perfect-scrollbar>
+                                        <p class="card-text1" style="max-width: 600px; max-height: 150px;">
+                                            Attendance management system is AI based web application So According to this application we can recoganize employee entry and exit time and also record . So In this Application we have done 3 module. Admin module Admin can see all page like livefeed,Live
+                                            Atendance,Attendance History,Face detection,Enroll,settings Human resource HR can see page like livefeed,Live Atendance,Attendance History,Face detection,Enroll. Security So Security can see only live feed So
+                                            In this application we are managing employee entry and exit time and also record we can fillter employee according date wise and name wise and hours wise and also we can edit and delete ,add employee details
+                                            and also generate pdf ,excel ,csv form data of employee.
+                                        </p>
+                                    </perfect-scrollbar>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p>
+                                        <img class="img-fluid" src="../../../assets/img/img/projectImage/sms.png" alt="card image">
+                                    </p>
+                                    <h4 class="card-title">SMS</h4>
+                                    <p class="card-text">Showroom Management System</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">SMS</h4>
+                                    <p class="card-text">Showroom Management System is an application which is only for the customer.According to this application customer check all details particular vehicle.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="col-md-4" data-aos="fade-up">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p>
+                                        <img class="img-fluid" src="../../../assets/img/img/projectImage/hcms.png" alt="card image">
+                                    </p>
+                                    <h4 class="card-title">HCMS</h4>
+                                    <p class="card-text">Health Care Management System</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">HCMS</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
 </section>
-
-<div class="product-detail-backdrop" *ngIf="selectedProduct" (click)="closeDetails()">
-  <section class="product-detail" role="dialog" aria-modal="true" [attr.aria-label]="selectedProduct.name + ' details'" (click)="$event.stopPropagation()"><div class="detail-inner"><button type="button" class="detail-close" (click)="closeDetails()" aria-label="Close product details">×</button><div class="detail-image"><img [src]="selectedProduct.image" loading="lazy" [alt]="selectedProduct.name"></div><div class="detail-copy"><p class="product-category">{{ selectedProduct.category }}</p><h2>{{ selectedProduct.name }}</h2><p>{{ selectedProduct.description }}</p><div class="feature-list feature-list-detail"><p class="feature-title">Key Features / Benefits</p><span *ngFor="let feature of selectedProduct.keyFeatures">&#10003; {{ feature }}</span></div><a class="button button-primary" href="https://wa.me/918375938269?text=Namaste%20PoojaVeda%2C%20I%20would%20like%20to%20enquire%20about%20your%20pooja%20products." target="_blank" rel="noopener">Enquire on WhatsApp <span>↗</span></a></div></div></section>
-</div>
-
-<section class="upcoming-section catalogue-upcoming"><div class="container"><div class="section-heading"><div><p class="eyebrow"><span></span> Expanding the shelf</p><h2>Coming Soon</h2></div><p class="upcoming-intro">These traditional favourites will be available soon.</p></div><div class="upcoming-grid"><article class="upcoming-card" *ngFor="let product of upcomingProducts"><img [src]="product.image" loading="lazy" [alt]="product.name"><div><p class="product-category">{{ product.category }}</p><h3>{{ product.name }}</h3><span class="coming-label">Coming Soon</span></div></article></div></div></section>

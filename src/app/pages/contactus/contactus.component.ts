@@ -35,14 +35,13 @@ export class ContactusComponent implements OnInit {
       return;
     }
 
+    // 🔄 Loading spinner
     Swal.fire({
-      title: 'Sending your message',
-      text: 'Please wait while we connect with PoojaVeda.',
-      background: '#fbf8f0',
-      color: '#1d4b3d',
-      customClass: { popup: 'poojaveda-alert', title: 'poojaveda-alert-title', htmlContainer: 'poojaveda-alert-copy' },
+      title: '📩 Sending Your Message...',
+      text: 'Hang tight! We are processing your request.',
+      background: '#f4f9ff',
+      color: '#2c3e50',
       allowOutsideClick: false,
-      showConfirmButton: false,
       didOpen: () => {
         Swal.showLoading();
       }
@@ -54,13 +53,12 @@ export class ContactusComponent implements OnInit {
       next: () => {
         Swal.fire({
           icon: 'success',
-          title: 'Thank you',
-          text: 'Your message has been sent. We will get back to you shortly.',
-          background: '#fbf8f0',
-          color: '#1d4b3d',
-          customClass: { popup: 'poojaveda-alert', title: 'poojaveda-alert-title', htmlContainer: 'poojaveda-alert-copy', confirmButton: 'poojaveda-alert-button' },
+          title: '✅ Thank You!',
+          text: 'Your message has been sent successfully. We will get back to you shortly.',
+          background: '#e8f9f1',
+          color: '#14532d',
           confirmButtonText: 'Close',
-          buttonsStyling: false,
+          confirmButtonColor: '#16a34a',
           timer: 5000,
           timerProgressBar: true,
           allowOutsideClick: false,
@@ -72,13 +70,12 @@ export class ContactusComponent implements OnInit {
       error: () => {
         Swal.fire({
           icon: 'error',
-          title: 'We could not send that',
+          title: '⚠️ Oops!',
           text: 'Something went wrong. Please try again later.',
-          background: '#fbf8f0',
-          color: '#754d31',
-          customClass: { popup: 'poojaveda-alert', title: 'poojaveda-alert-title', htmlContainer: 'poojaveda-alert-copy', confirmButton: 'poojaveda-alert-button' },
+          background: '#fff5f5',
+          color: '#7f1d1d',
           confirmButtonText: 'Retry',
-          buttonsStyling: false,
+          confirmButtonColor: '#dc2626',
           timer: 5000,
           timerProgressBar: true
         });
@@ -94,7 +91,13 @@ export class ContactusComponent implements OnInit {
 
 
   scrollToTop() {
-    window.scrollTo(0, 0);
+    (function smoothscroll() {
+      var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      if (currentScroll > 0) {
+        window.requestAnimationFrame(smoothscroll);
+        window.scrollTo(0, currentScroll - (currentScroll / 5));
+      }
+    })();
   }
 
 
